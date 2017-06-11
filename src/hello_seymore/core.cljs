@@ -3,7 +3,7 @@
             [hello-seymore.components :refer [like-seymore]]
   ))
 
-(defonce app-state (atom { :likes 0 }))
+(def app-state (atom { :likes 999 }))
 
 (defn render! []
   (.render js/ReactDOM
